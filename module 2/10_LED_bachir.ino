@@ -1,7 +1,5 @@
 
   //initialisation des variables
- int pinLed1 , pinLed2, pinLed3, pinLed4 , pinLed5, pinLed6 , pinLed7 ,pinLed8, pinLed9, pinLed10 ;
-
 void setup() {
   pinLed1 = 2;
   pinLed2 = 3;
@@ -38,13 +36,15 @@ void setup() {
  digitalWrite(pinLed9,  LOW);
  digitalWrite(pinLed10,  LOW);
   
-  // put your setup code here, to run once:
+  
 
 }
 
 void loop() {
   //test allumage et repérage des lEDs
-digitalWrite(pinLed1, HIGH);
+  //LOW = ettenignement de la Led 
+  //HIGH = alumage de la led
+digitalWrite(pinLed1, HIGH); 
 
 delay(100);
 analogWrite(pinLed1, LOW);
@@ -86,16 +86,5 @@ digitalWrite(pinLed10,  HIGH);
 delay(100);
 digitalWrite(pinLed10,  LOW);
   delay(100);
-  
-  //on éteint tout
-  
-  
  
-  
- 
- 
-  
-  
-  // put your main code here, to run repeatedly:
-
 }
