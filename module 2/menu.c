@@ -12,7 +12,8 @@ void displayMenu(int* menu)
      * of leds and we ask the user his choice / on on demande a l'utilisateur de faire un choix 
      * Change the menu variable with a pointer 
      */
-     
+     printf("                ___     ____     _______    ____     mp\n      |---''''''   |   dMMMMb   `""""""YM<.  `'\n      |            |  MMF  YMM  ]M[       dM'    ]M  Ob\n      |...,---+    | ,MM    `   ]M[       dm      '  dO\n               |   | ]MM        ]M______  `Mb___     dO\n   |ii'|       |   | ]MM     _   M'''''''   `""PPPPYM. dO\n   |OOp|       |   | `MM.   dMb  Mb               Mb dO\n   |OOP|       |   |  MM[   dMb  Mb        mm     dM dO\n   |dOo|       |.,--  YMMmmdMM'  mmmmmmm   YML__,dM' dO\n   |dOP|               ``""""''  _`""""""    `""""'   `'\n   |YP8|+===iiii'            ,-'''`. .    ,  m  ,-.p.\n    ''' `888888'|           |' _ _ |  `. /   M   '  ||\n        `'------'           |.'''''    ,'.   M  .,..'|\n                             \_____/  ,'  `b  M  |L   |\n                               `""-''  '    ' ""  ""``''-\n""");
+sleep(2);  
 printf(",ISLAM,\n        ,AMMMMP~~~~\n     ,MMMMMMMMA.\n   ,M;'     `YV'\n  AM' ,OMA,\n AM|   `~VMM,.      .,ama,____,amma,..\n MML      )MMMD   .AMMMMMMMMMMMMMMMMMMD.\n VMMM    .AMMY'  ,AMMMMMMMMMMMMMMMMMMMMD\n `VMM, AMMMV'  ,AMMMMMMMMMMMMMMMMMMMMMMM,                ,\n  VMMMmMMV'  ,AMY~~''  'MMMMMMMMMMMM' '~~             ,aMM\n  `YMMMM'   AMM'        `VMMMMMMMMP'_              A,aMMMM\n   AMMM'    VMMA. YVmmmMMMMMMMMMMML MmmmY          MMMMMMM\n  ,AMMA   _,HMMMMmdMMMMMMMMMMMMMMMML`VMV'         ,MMMMMMM\n  AMMMA _'MMMMMMMMMMMMMMMMMMMMMMMMMMA `'          MMMMMMMM\n ,AMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMa      ,,,   `MMMMMMM\n AMMMMMMMMM'~`YMMMMMMMMMMMMMMMMMMMMMMA    ,AMMV    MMMMMMM\n VMV MMMMMV   `YMMMMMMMMMMMMMMMMMMMMMY   `VMMY'  adMMMMMMM\n `V  MMMM'      `YMMMMMMMV.~~~~~~~~~,aado,`V''   MMMMMMMMM\n    aMMMMmv       `YMMMMMMMm,    ,/AMMMMMA,      YMMMMMMMM\n    VMMMMM,,v       YMMMMMMMMMo oMMMMMMMMM'    a, YMMMMMMM\n    `YMMMMMY'       `YMMMMMMMY' `YMMMMMMMY     MMmMMMMMMMM\n     AMMMMM  ,        ~~~~~,aooooa,~~~~~~      MMMMMMMMMMM\n       YMMMb,d'         dMMMMMMMMMMMMMD,   a,, AMMMMMMMMMM\n        YMMMMM, A       YMMMMMMMMMMMMMY   ,MMMMMMMMMMMMMMM\n       AMMMMMMMMM        `~~~~'  `~~~~'   AMMMMMMMMMMMMMMM\n       `VMMMMMM'  ,A,                  ,,AMMMMMMMMMMMMMMMM\n     ,AMMMMMMMMMMMMMMA,       ,aAMMMMMMMMMMMMMMMMMMMMMMMMM\n   ,AMMMMMMMMMMMMMMMMMMA,    AMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n ,AMMMMMMMMMMMMMMMMMMMMMA   AMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\nAMMMMMMMMMMMMMMMMMMMMMMMMAaAMMMMMMMMM KING OF BEASTS ISLAM\n                             __       __");
 system ("COLOR 2  ");
 sleep(2);
@@ -39,8 +40,8 @@ sleep(2);
 void menuChoice(int* menu, FILE* content)
 {
     /**
-     * We use a switch to initialize all possible choices/ on utilise " switch case " pour inisialiser toutes les possibilitées 
-     * Display some information as well as changes of variables / afficher quelques information en fonction des variables accordé au choix 
+     * We use a switch to initialize all possible choices/ on utilise " switch case " pour inisialiser toutes les possibilitÃ©es 
+     * Display some information as well as changes of variables / afficher quelques information en fonction des variables accordÃ© au choix 
      * according to the choice of the user
      * End of the Arduino program/ fin du programme arduino 
      */
